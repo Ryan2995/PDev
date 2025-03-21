@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+   <title>Ulala Overview</title>
+</head>
+<body>
+
+        <div id="mySidebar" class="sidebar">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+          <a href="Assassin.html">Assassin</a>
+          <a href="Mage.html">Mage</a>
+          <a href="Hunter.html">Hunter</a>
+          <a href="Warlock.html">Warlock</a>
+          <a href="Gladiator.html">Gladiator</a>
+          <a href="Warrior.html">Warrior</a>
+          <a href="Druid.html">Druid</a>
+          <a href="Shaman.html">Shaman</a>
+        
+        </div>
+        
+        <div id="main">
+          <button class="openbtn" onclick="openNav()">☰</button>  
+        </div>
+        
+        <script>
+        function openNav() {
+          document.getElementById("mySidebar").style.width = "250px";
+          document.getElementById("main").style.marginLeft = "250px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidebar").style.width = "0";
+          document.getElementById("main").style.marginLeft= "0";
+        }
+        </script>
+           
+
+    <h1>Ulala Overview</h1>
+    
+    <p class="Overview">Whether you’re sleeping, eating, or taking the subway - come play Ulala: Idle Adventure! Ulala is an idle MMORPG, which brings to life the excitement and adventures of the Stone Age in a fun and social way! Could you ever imagine the Stone Age to be so carefree?<br>
+    At the edge of the desert, and at the foot of a volcano, there lives a group of happy Ulala and a bunch of little monsters. Ice and fire, thunder and electricity, all intertwine on the wild and vast continent where there's constantly a struggle between peace and action.</p>
+
+    <p class ="About">This page is designed to give an overview of each of the available classes in the game and a bit of basic info on the playstyles for each class as well.</p>
+
+    <h3>DPS Characters</h3>
+
+<div class ="row">
+
+    <div class ="col" id ="Assassin">Assassin: A fast paced, close ranged DPS with focus on dealing DoT(Damage over time) with it's poison blades and fast skill rotation, while also being sturdy, with strong damage mitigation abilites.<br><br><img src ="images\Assassin.webp" style="width: 75%"></div>
+    <div class ="col" id ="Warlock">Warlock: A slow paced, long ranged attacker, with the ability to deal both DoT and high burst damage, but also a strong skill set designed around control, through interrupts and summons.<br><br><img src ="images\Warlock.webp" style="width: 65%"></div>
+    <div class ="col" id ="Mage">Mage: A busrt style dps with a focus on crowd control and AoE(Area of Effect) damage, a typical mmo glass cannon character purely focused on killing before being killed.<br><br><br><img src ="images\Mage.webp" style="width: 90%"></div>
+    <div class ="col" id ="Hunter">Hunter: A single target burst damage dealer, calling on birds of prey to buff it's attacks and harnessing concentration to deal massive single hit damage, un-matched in 1v1 combat.<br><br><br><img src ="images\Hunter.webp" style="width: 75%"></div>
+
+</div>
+
+<h3>Tank Characters</h3>
+
+<div class ="row">
+    
+    <div class ="col" id="Gladiator">Gladiator: A Tank focused on HP scaling and self-healing and attack based healing designed to be paired with burst healers to outlive the enemy and keep the team safe.<br><br><br><img src ="images\Gladiator.webp" style="width: 40%"></div>
+    <div class ="col" id ="Warrior">Warrior: A Tank focused on armor and shielding to mitigate damage from incoming attacks, paired well with damage mitigation healing and slower heal over time healers.<br><br><br><br><img src ="images\Warrior.webp" style="width: 40%"></div>
+    
+</div>
+
+<h3>Heal Characters</h3>
+
+<div class ="row">
+    
+    <div class ="col" id="Druid">Druid: A strong heal over time based healer with the ability to take on varying bird forms to increase either healing or attack, depending on what the situation calls for. Pairs perfectly with the Gladiator Tank class, but can also work well with the Warrior class.<br><br><br><img src ="images\Druid.webp" style="width: 40%"></div>
+    <div class ="col" id="Shaman">Shaman: A burst heal variation of healer focused on quickly restoring lost HP to allies using chants and totems, known for their connection to the ancestors. Pairs perfectly with the Warrior Tank class, but can also work well with the Gladiator class.<br><br><br><br><img src ="images\Shaman.webp" style="width: 30%"></div>
+    
+</div>
+</body>
+</html>
